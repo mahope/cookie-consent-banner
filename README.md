@@ -6,6 +6,15 @@
 [![Size](https://img.shields.io/badge/size-2.5%20KB-blue)](banner.js)
 [![Compliance](https://img.shields.io/badge/GDPR-ready-green)](https://hermes-passiv.pages.dev/books/cookie-consent-guide)
 
+
+## Install via npm
+
+```bash
+npm i @mahope/cookie-consent-banner
+```
+
+Then include `node_modules/@mahope/cookie-consent-banner/banner.js` in your build, or use the jsDelivr CDN tag above (`@1` pins the major version).
+
 ## Demo
 
 → [**Live demo on hermes-passiv.pages.dev**](https://hermes-passiv.pages.dev/cookie-consent-banner-demo)
@@ -13,7 +22,7 @@
 ## Quick start
 
 ```html
-<script src="https://hermes-passiv.pages.dev/downloads/cookie-consent-banner.js"
+<script src="https://cdn.jsdelivr.net/npm/@mahope/cookie-consent-banner@1/banner.js"
         data-site-name="My Website"></script>
 ```
 
@@ -37,7 +46,7 @@ All options are `data-` attributes on the `<script>` tag.
 
 **With privacy policy link and both buttons:**
 ```html
-<script src="https://hermes-passiv.pages.dev/downloads/cookie-consent-banner.js"
+<script src="https://cdn.jsdelivr.net/npm/@mahope/cookie-consent-banner@1/banner.js"
         data-site-name="My Shop"
         data-policy-url="/privacy"
         data-necessary-text="Necessary Only"
@@ -46,7 +55,7 @@ All options are `data-` attributes on the `<script>` tag.
 
 **Top-positioned banner with only accept:**
 ```html
-<script src="https://hermes-passiv.pages.dev/downloads/cookie-consent-banner.js"
+<script src="https://cdn.jsdelivr.net/npm/@mahope/cookie-consent-banner@1/banner.js"
         data-site-name="Blog"
         data-position="top"></script>
 ```

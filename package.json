@@ -1,0 +1,14 @@
+{
+  "name": "@mahope/cookie-consent-banner",
+  "version": "1.0.1",
+  "description": "Lightweight, GDPR-compliant cookie consent banner. One script tag, zero dependencies, no tracking, ~2.5 KB.",
+  "main": "banner.js",
+  "files": ["banner.js", "README.md", "LICENSE"],
+  "keywords": ["cookie-consent", "gdpr", "eprivacy", "cookie-banner", "privacy", "consent"],
+  "repository": { "type": "git", "url": "git+https://github.com/mahope/cookie-consent-banner.git" },
+  "homepage": "https://github.com/mahope/cookie-consent-banner#readme",
+  "bugs": { "url": "https://github.com/mahope/cookie-consent-banner/issues" },
+  "author": "Mads Holst Jensen <mads@mahoje.dk> (https://mahoje.dk)",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}
