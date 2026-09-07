@@ -4,8 +4,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 [![Size](https://img.shields.io/badge/size-2.5%20KB-blue)](banner.js)
-[![Compliance](https://img.shields.io/badge/GDPR-ready-green)](https://hermes-passiv.pages.dev/books/cookie-consent-guide)
-
+[![Compliance](https://img.shields.io/badge/GDPR-ready-green)](https://mahope.tools/books/cookie-consent-guide)
 
 ## Install via npm
 
@@ -13,11 +12,11 @@
 npm i @mahope/cookie-consent-banner
 ```
 
-Then include `node_modules/@mahope/cookie-consent-banner/banner.js` in your build, or use the jsDelivr CDN tag above (`@1` pins the major version).
+Then include `node_modules/@mahope/cookie-consent-banner/banner.js` in your build, or use the jsDelivr CDN tag below (`@1` pins the major version).
 
 ## Demo
 
-→ [**Live demo on hermes-passiv.pages.dev**](https://hermes-passiv.pages.dev/cookie-consent-banner-demo)
+[Live demo on mahope.tools](https://mahope.tools/cookie-consent-banner-demo)
 
 ## Quick start
 
@@ -73,14 +72,18 @@ All options are `data-` attributes on the `<script>` tag.
 
 The EU ePrivacy Directive requires websites to obtain consent before storing non-essential cookies. This banner is a lightweight way to meet that requirement for compliance-conscious site owners.
 
-For a deeper guide on cookie consent, EU compliance requirements, and how to audit your site, download the free e-book: [**Cookie Consent & GDPR Compliance for Web Agencies**](https://hermes-passiv.pages.dev/books/cookie-consent-guide).
+For a deeper guide on cookie consent, EU compliance requirements, and how to audit your site, download the free e-book: [**Cookie Consent & GDPR Compliance for Web Agencies**](https://mahope.tools/books/cookie-consent-guide).
 
 ## Related tools
 
 - [**Compliance Site Check**](https://github.com/mahope/compliance-site-check) — GitHub Action that checks any site for privacy policy, terms, cookie banner, imprint, DPA, security headers, meta tags and hreflang
 - [**EUcomply Scanner**](https://github.com/mahope/eucomply-scanner) — CLI scanner for website compliance (GDPR, DSA, ePrivacy, security headers)
-- [**Free E-Books**](https://hermes-passiv.pages.dev/books) — NIS2, GDPR, EAA, and cookie consent guides in EPUB format
+- [**Free E-Books**](https://mahope.tools/books/) — NIS2, GDPR, EAA, and cookie consent guides in EPUB format
 
 ## License
 
 MIT — use it anywhere, free and unrestricted.
+
+## Author
+
+Built by Mads Holst Jensen — developer and technical partner for small businesses, Odense, Denmark. https://mahoje.dk
