@@ -80,6 +80,11 @@ For a deeper guide on cookie consent, EU compliance requirements, and how to aud
 - [**EUcomply Scanner**](https://github.com/mahope/eucomply-scanner) — CLI scanner for website compliance (GDPR, DSA, ePrivacy, security headers)
 - [**Free E-Books**](https://mahope.tools/books/) — NIS2, GDPR, EAA, and cookie consent guides in EPUB format
 
+## Releasing
+
+`npm run release -- patch` (or `minor`/`major`) bumps the version, commits and pushes the tag.
+CI publishes to npm and creates the GitHub release.
+
 ## License
 
 MIT — use it anywhere, free and unrestricted.
